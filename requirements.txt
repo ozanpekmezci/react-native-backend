@@ -5,3 +5,5 @@ djangorestframework==3.5.3
 oauth2-provider==0.0
 oauthlib==1.1.2
 six==1.10.0
+gunicorn==19.6.0
+
