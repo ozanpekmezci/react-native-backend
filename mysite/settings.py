@@ -136,3 +136,5 @@ OAUTH2_PROVIDER = {
 'SCOPES': {'read': 'Read scope', 'write': 'Write scope', 'groups': 'Access to your groups'},
 'ACCESS_TOKEN_EXPIRE_SECONDS': 86400, # 24h (It is better to choose shorter periods),
 }
+PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
